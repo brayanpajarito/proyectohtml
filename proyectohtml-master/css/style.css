@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,500;0,900;1,100;1,300;1,500;1,900 & display=swap');
+@import 'mediaquires.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/67354.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding: 30px;
+}
+.navbar .brand{
+    color: rgb(83, 80, 255);
+    margin-left: 20px;
+}
+.navbar .menu{
+    grid-column: 6/9;
+    display: flex;
+    margin-top: 12px;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    margin-right: 3em;
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.menu li a:hover{
+    background-color: rgb(0, 0, 0);
+    transition: all .10s;
+}
+
+.navbar .menu-bar {
+    margin-right: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.content-info{
+    margin-top: 5em;
+    color: rgb(0, 0, 0);
+}
+button{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 13px 14px 8px rgba(0, 0, 0, 0.78);
+    border: 20px;
+}
+button:hover{
+    box-shadow: none;
+}
+.btn-toBuy, .read-more{
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(128, 126, 138);
+    padding: 8px 40px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn-toBuy{
+    border: 5px solid rgb(128, 126, 138);
+}
+.read-more{
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(128, 126, 138);
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main img{
+    float: right;
+    width: 600px;
+    height: 400px;
+    margin-right: 100px;
+}
+.display-1{
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+
+}
+.display-2{
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+}
+.brand img{
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+}
+
+.navbar .menu .menu-bar{
+    margin-right: 100px;
+    color: white;
+}

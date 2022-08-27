@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px){
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    box-shadow: 2px 2px 15px 0px  rgba(0, 0, 0, );
+    align-items: center;
+}
+
+.navbar .menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    background-color: rgb(170, 179, 177);
+    height: 50vh;
+    left: 1em;
+    transform: translateY(-120%);
+
+}
+
+.menu .li{
+    margin-top: 3ems;
+}
+
+.navbar .menu-bar{
+    display: block;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.637);
+    cursor: pointer;
+
+}
+
+.navbar .menu-toggle{
+    transform: translateY(0%);
+}
+
+}

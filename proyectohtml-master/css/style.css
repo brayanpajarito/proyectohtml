@@ -12,8 +12,7 @@ body{
 .hero{
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/67354.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../img/14549263_rm251-mind-01.jpg);
     background-size: cover;
     max-width: 100%;
 }
@@ -73,15 +72,18 @@ button:hover{
     border-radius: 20px;
     border: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 300px;
 }
 .btn-toBuy{
     border: 5px solid rgb(128, 126, 138);
+    
 }
 .read-more{
     background-color: rgb(255, 255, 255);
     border: 5px solid rgb(128, 126, 138);
     margin: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 300px;
 }
 .main img{
     float: right;
@@ -92,21 +94,29 @@ button:hover{
 .display-1{
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 10px;
+    margin-left: 400px;
 
 }
 .display-2{
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 10px;
+    margin-left: 300px;
 }
 .brand img{
     margin-left: 50px;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 300px;
 }
 
 .navbar .menu .menu-bar{
     margin-right: 100px;
     color: white;
+}
+
+#logo{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
 }

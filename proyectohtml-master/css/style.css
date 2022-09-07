@@ -8,15 +8,20 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: url(../img/mikail-il-shot-6sdadasd.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
 }
 .hero{
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/14549263_rm251-mind-01.jpg);
-    background-size: cover;
+
     max-width: 100%;
 }
 .navbar{
+    background-color: silver;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     padding: 30px;
@@ -26,6 +31,7 @@ body{
     margin-left: 20px;
 }
 .navbar .menu{
+    
     grid-column: 6/9;
     display: flex;
     margin-top: 12px;
@@ -94,12 +100,12 @@ button:hover{
 .display-1{
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 400px;
+    text-align: center;
 
 }
 .display-2{
     color: rgb(255, 255, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 300px;
 }
 .brand img{
@@ -114,9 +120,16 @@ button:hover{
 }
 
 #logo{
-    width: 300px;
-    height: 300px;
-    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    margin-left: 90px;
     float: left;
     margin-top: 10px;
+}
+#parrafo1{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    float: left;
+    margin-left: 80px;
+    color: white;
 }

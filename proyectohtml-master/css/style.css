@@ -8,11 +8,16 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-image: url(../img/mikail-il-shot-6sdadasd.jpg);
+    background-image:linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.39),
+    rgba(152, 71, 219, 0.5)
+    ), url(../img/mikail-il-shot-6sdadasd.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     background-attachment: fixed;
+    
 }
 .hero{
     width: 100vw;
@@ -21,7 +26,10 @@ body{
     max-width: 100%;
 }
 .navbar{
-    background-color: silver;
+    background: #3494E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     padding: 30px;

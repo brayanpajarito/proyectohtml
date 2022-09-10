@@ -1,0 +1,27 @@
+body{
+    margin-top: 90px;
+    background-image: url(../img/darshil-panchal-galaxy.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+aside{
+    float: right;
+    margin-right: 80px;
+    color: white;
+    
+}
+article{
+    float: left;
+    margin-left: 80px;
+    color: white;
+}
+#pregunta{
+    margin-left: 80px;
+    color: white;
+}
